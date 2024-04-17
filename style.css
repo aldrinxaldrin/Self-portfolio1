@@ -1,0 +1,167 @@
+body{
+    text-align: center;
+    background-image: url("images/backg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid #900000;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    
+
+    
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bolder;
+    background: linear-gradient(90deg,#490b0b,#f80606,#580c0c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #900000;
+    padding: 4px;
+
+
+
+}
+h2{
+    text-align: center;
+}
+h2 a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    color: #900000;
+}
+ 
+a:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    background: linear-gradient(90deg, rgba(223, 179, 179, 0.5) 16%, rgba(238, 237, 154, 0.5) 100%);
+    border: 2px solid #9000005e;
+    border-radius: 8px;
+}
+h3{
+    text-align: left;
+    font-family: Arial;
+    background-color: #900000;
+    padding: 5px;
+    font-style: italic;
+    color: white;
+}
+p{
+    font-family: sans-serif;
+    text-align: justify;
+    color: #ffffff;
+    margin: 20px 0 50px 0;
+    letter-spacing: 1px;
+    text-indent: 50px;
+
+
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+th{
+    background: #900000;
+    color: #ffff;
+    border: 1px solid #ffffff;
+}
+td {
+    border-collapse: collapse;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #f5f5f5;
+
+}
+ul{
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: left;
+    color: #ffffff;
+}
+h4{
+    text-align: left;
+    font-family: Arial;
+    background-color: #900000;
+    padding: 5px;
+    font-style: italic;
+    color: white;
+}
+ol{
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: left;
+    color: #ffffff;
+}
+hr{
+    text-align: center;
+    width: 100%;
+    height: 1px;
+    background-color: #900000;
+    border-color: #900000;
+}
+p:hover{
+    background: linear-gradient(90deg, rgba(223, 179, 179, 0.5) 16%, rgba(238, 237, 154, 0.5) 100%);
+    border-radius: 8px;
+    transition: 0.5s ease;
+
+}
+ul:hover{
+    background: linear-gradient(90deg, rgba(223, 179, 179, 0.5) 16%, rgba(238, 237, 154, 0.5) 100%);
+    border-radius: 8px;
+    transition: 0.5s ease;
+
+
+}
+table:hover{
+    background: linear-gradient(90deg, rgba(223, 179, 179, 0.5) 16%, rgba(238, 237, 154, 0.5) 100%);
+    border: 1px solid #900000;
+    border-radius: 8px;
+    transition: 0.5s ease;
+
+
+
+}
+ol:hover{
+    background: linear-gradient(90deg, rgba(223, 179, 179, 0.5) 16%, rgba(238, 237, 154, 0.5) 100%);
+    border-radius: 8px;
+    transition: 0.5s ease;
+
+}
+h3:hover{
+    transition: 0.5s ease;
+    border-radius: 8px;
+    background: rgb(144,0,0);
+    background: linear-gradient(90deg, rgba(144,0,0,1) 16%, rgba(238,237,154,1) 100%);
+
+}
+h4:hover{
+    transition: 0.5s ease;
+    border-radius: 8px;
+    background: rgb(144,0,0);
+    background: linear-gradient(90deg, rgba(144,0,0,1) 16%, rgba(238,237,154,1) 100%);
+
+}
+body:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
+    border:2px solid rgb(144, 0, 0);
+    transition: 0.5s ease;
+    border-radius: 8px;
+    
+}
