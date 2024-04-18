@@ -93,6 +93,7 @@ ul{
     border-collapse: collapse;
     text-align: left;
     color: #ffffff;
+    font-family: Arial;
 }
 h4{
     text-align: left;
@@ -107,6 +108,8 @@ ol{
     border-collapse: collapse;
     text-align: left;
     color: #ffffff;
+    font-family: Arial;
+
 }
 hr{
     text-align: center;
